@@ -6,17 +6,58 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style> 
-            #exemplo1 {
+            .estrutura{
+                position: absolute;
+                border: 1px solid black;
                 width: 100px;
                 height: 75px;
-                background-color: red;
-                border: 1px solid black;
+                top: 150px;
+                left: 150px;
+            }
+            #exemplo1 {
+                background-color: blueviolet;
+                /* Rotação da DIV */
+                transform: rotate(0deg); /* Standard syntax */
+               }
+            #exemplo2 {
+                background-color: blue;
                 /* Rotação da DIV */
                 transform: rotate(30deg); /* Standard syntax */
+               }
+            #exemplo3 {
+                background-color: aquamarine;
+                /* Rotação da DIV */
+                transform: rotate(60deg); /* Standard syntax */
+               }
+            #exemplo4 {
+                background-color: chartreuse;
+                /* Rotação da DIV */
+                transform: rotate(90deg); /* Standard syntax */
+               }
+            #exemplo5 {
+                background-color: green;
+                /* Rotação da DIV */
+                transform: rotate(120deg); /* Standard syntax */
+               }
+            #exemplo6 {
+                background-color: crimson;
+                /* Rotação da DIV */
+                transform: rotate(150deg); /* Standard syntax */
+               }
+            #exemplo7 {
+                background-color: goldenrod;
+                /* Rotação da DIV */
+                transform: rotate(180deg); /* Standard syntax */
                }
         </style>
     </head>
     <body>
-        <div id="exemplo1">Exemplo de rotate.</div>
+        <div id="exemplo1" class="estrutura"></div>
+        <div id="exemplo2" class="estrutura"></div>
+        <div id="exemplo3" class="estrutura"></div>
+        <div id="exemplo4" class="estrutura"></div>
+        <div id="exemplo5" class="estrutura"></div>
+        <div id="exemplo6" class="estrutura"></div>
+        <div id="exemplo7" class="estrutura"></div>
     </body>
 </html>
