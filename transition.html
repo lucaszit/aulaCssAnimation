@@ -9,20 +9,19 @@
             div {
                 width: 100px;
                 height: 100px;
-                background: red;
-                -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
-                transition: width 2s, height 2s, transform 2s;
+                background: fuchsia;
+                transition: width 2s, height 2s, transform 2s, 2s;
             }
             div:hover {
                 width: 200px;
                 height: 200px;
-                -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-                transform: rotate(180deg);
+                transform: rotate(360deg);
+                background-color: lawngreen;
+                transition: 2s;
             }
         </style>
     </head>
     <body>
-        <p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
-        <div>Hover over me to see the transition effect!</div>
+        <div></div>
     </body>
 </html>
